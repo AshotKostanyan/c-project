@@ -113,6 +113,7 @@
     <Compile Include="signIn.xaml.cs">
       <DependentUpon>signIn.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ToDoList.cs" />
     <Compile Include="Users.cs" />
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>

@@ -11,5 +11,6 @@ namespace SignIn
     {
         public AppContext() : base("DbConnectionString") { }
         public DbSet<Users> Users { get; set; }
+        public DbSet<ToDoList> ToDoList { get; set; }
     }
 }
